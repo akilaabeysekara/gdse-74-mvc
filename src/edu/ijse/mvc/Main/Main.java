@@ -8,7 +8,7 @@ package edu.ijse.mvc.Main;
  *
  * @author akila
  */
-public class java {
+public class Main {
 
     /**
      * @param args the command line arguments
