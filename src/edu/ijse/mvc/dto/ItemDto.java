@@ -25,6 +25,7 @@ public class ItemDto {
         this.packSize = packSize;
         this.qoh = qoh;
         this.unitPrice = unitPrice;
+        
     }
 
     /**
@@ -95,6 +96,11 @@ public class ItemDto {
      */
     public void setUnitPrice(double unitPrice) {
         this.unitPrice = unitPrice;
+    }
+
+    @Override
+    public String toString() {
+        return "ItemDto{" + "itemCode=" + itemCode + ", description=" + description + ", packSize=" + packSize + ", qoh=" + qoh + ", unitPrice=" + unitPrice + '}';
     }
     
     
